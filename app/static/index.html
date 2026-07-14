@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Management</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz Backend Management</h1>
+
+        <section>
+            <h2>Add Question</h2>
+            <input id="questionText" type="text" placeholder="Enter question">
+            <input id="category" type="text" placeholder="Enter category">
+            <button onclick="addQuestion()">Add Question</button>
+        </section>
+
+        <section>
+            <h2>Add Choice</h2>
+            <input id="choiceText" type="text" placeholder="Enter choice">
+            <input id="questionId" type="number" placeholder="Question ID">
+            <label>
+                <input id="isCorrect" type="checkbox">
+                Correct Answer
+            </label>
+            <button onclick="addChoice()">Add Choice</button>
+        </section>
+
+        <section>
+            <h2>Questions</h2>
+            <button onclick="loadQuestions()">Refresh Questions</button>
+            <div id="questionsList"></div>
+        </section>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

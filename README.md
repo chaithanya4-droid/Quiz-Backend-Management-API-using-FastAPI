@@ -20,7 +20,7 @@ This project demonstrates modern backend development practices, including API de
 - Python
 - SQLAlchemy
 - Pydantic
-- SQLite / MySQL / PostgreSQL
+- SQLite 
 - Uvicorn
 
 ## Project Structure
@@ -35,15 +35,10 @@ quiz-backend-api/
 │   │── main.py
 │── requirements.txt
 ```
-
-## Getting Started
-
 ### Prerequisites
 
 - Python 3.9+
 - pip
-
-
 ### Questions
 
 | Method | Endpoint | Description |
